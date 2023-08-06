@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/form.css">
+    <link rel="stylesheet" href="/css/buttons.css">
+    <title>Document</title>
+</head>
+<body>
+    <header class="header__register">
+        <div class="header__nav__div1-register">
+            <a href=""><img src="/img/trueque.logo.jpg" alt="">logo-trueque</a>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="/profile">perfil</a></li>
+                <li><a href="/login">ingresar</a></li>
+                <li><a href="/register">registro</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="container">
+        <div class="row">
+            <div class="col-12 col-md-10 col-lg-6 mx-auto">
+        <div class="card">
+            <div class="card-header">
+                <h2 class="card-title">Perfil de usuario</h2>
+            </div>
+            <div class="card-body">
+                <form action="/profile" class="row">
+                    <div class="col-12 col-md-6 mb-3">
+                        <label class="form-label" for="name">Nombre</label>
+                        <input class="form__control" id="name" type="text" name="name" required>
+                    </div>
+                    <div class="col-12 col-md-6 mb-3">
+                        <label class="form-label" for="surname">Apellido</label>
+                        <input class="form__control" id="surname" type="text" name="surname">
+                    </div>
+                    <div class="col-12 mb-3">
+                        <label class="form-label" for="email">Email</label>
+                        <input class="form__control" id="email" type="email" name="email" read>
+                    </div>
+                    <div class="col-12 mb-3">
+                        <label class="form-label" for="address">Domicilio</label>
+                        <input class="form__control" id="address" type="address" name="address" placeholder=" ej: futaleufu 2356 piso 3 dpto 15">
+                    </div>
+                    <div class="col-12 col-md-6 mb-3">
+                        <label class="form-label" for="city">Localidad</label>
+                        <select class="form-select" name="city" id="city">
+                            <option value="" hidden selected>Selecciones la localidad...</option>
+                            <option value="ave">Avellaneda</option>
+                            <option value="mag">Magdalena</option>
+                            <option value="mo">Moron</option>
+                            <option value="caba">CABA</option>
+                            <option value="rosa">Rosario</option>
+                            <option value="lan">Lanús</option>
+                            <option value="huri">Hurlingham</option>
+                            <option value="jcp">Jose C. Paz</option>
+                            <option value="cor">Cordoba</option>
+                            <option value="za">Zárate</option>
+                            <option value="san">San Miguel</option>
+                        </select>
+                    </div>
+                    <div class="col-12 col-md-6 mb-3">
+                        <label class="form-label" for="province">Provincia</label>
+                        <select class="form-select" name="province" id="province">
+                            <option value="" hidden selected>Selecciones la provincia...</option>
+                            <option value="ave">Buenos Aires</option>
+                            <option value="mag">Santa Fé</option>
+                            <option value="mo">CABA</option>
+                            <option value="caba">Cordoba</option>
+                            <option value="">Tucumán</option>
+                            <option value="san">San Miguel</option>
+                        </select>
+                    </div>
+                    <div class="col-12 col-md-6 mb-3">
+                        <h5>Preferencias</h5>
+                        <hr>
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="Smartphones" name="preference" id="Smartphones">
+                            <label class="form-check-label" for="Smartphones">Smartphones</label>
+                        </div>    
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="Tablet" name="preference" id="Tablet">
+                            <label class="form-check-label" for="Tablet">Tablets</label>
+                        </div>    
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="Computadoras" name="preference" id="Computadoras">
+                            <label class="form-check-label" for="Computadoras">Computadoras</label>
+                        </div>    
+                    </div>
+                    <div class="col-12 col-md-6">
+                        <h5>Formas de pago</h5>
+                        <hr>
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" value="Smartphones" name="pay" id="Efectivo">
+                            <label class="form-check-label" for="Smartphones">Smartphones</label>
+                        </div>    
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" value="Tablet" name="pay" id="Crédito">
+                            <label class="form-check-label" for="Tablet">Tablets</label>
+                        </div>    
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" value="Computadoras" name="pay" id="Débito">
+                            <label class="form-check-label" for="Computadoras">Computadoras</label>
+                        </div>    
+                    </div>
+                    <div class="col-12">
+                        <label class="form-label" for="about">Acerca de mi</label>
+                        <textarea class="form-control" name="about" id="about" rows="10" style="resize: none;"></textarea>
+                    </div>
+                    <div class="col-12 mb-3 d-flex justify-content-end gap-3">
+                        <button type="reset" class="buttons buttons__secondary">Limpiar</button>
+                        <button type="submit" class="buttons buttons__primary">Enviar</button> 
+                    </div>
+                </form>    
+            </div>
+        </div>
+        </div>
+    </div> 
+    </main>
+</body>
+</html>
+</body>
+</html>

@@ -16,4 +16,11 @@ app.get('/header', (req, res) => res.sendFile(path.join(__dirname, 'views', 'hea
 
 app.get('/footer', (req, res) => res.sendFile(path.join(__dirname, 'views', 'footer.html')));
 
+app.get('/register', (req, res) => res.sendFile(path.join(__dirname, 'views', 'register.html')));
+
+app.get('/login', (req, res) => res.sendFile(path.join(__dirname, 'views', 'login.html')));
+
+app.get('/profile', (req, res) => res.sendFile(path.join(__dirname, 'views', 'profile.html')));
+
+
 app.listen(PORT, () => log('Servidor corriendo en http://localhost:' + PORT));
