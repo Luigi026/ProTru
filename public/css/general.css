@@ -5,5 +5,9 @@
     font-family: 'Ysabeau', 'inconsolata' ;
 }
 body {
-    background-color: #ebebf2;
+    background-color: #dddddd;
+}
+
+a {
+    text-decoration: none;
 }

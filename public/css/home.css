@@ -1,6 +1,9 @@
 
 /*  H O M E  */
-
+h2 {
+    text-transform: uppercase;
+    color: #6c6c73;
+}
 .main__home {
     display: flex;
     flex-direction: column;
@@ -9,25 +12,29 @@
 }
 .main__home__section {
     text-align: center;
-    width: 100%;
+    width: 98%;
     display: flex;
     flex-direction: column;
     align-items: center;
+    border: 1px solid silver;
+    background-color: #ffffff;
 }
 .main__home__section__article {
     display: flex;
-    width: 96%;
+    width: 100%;
     flex-direction: column;
 }
 .main__home__section__article__div1 {
     display: flex;
     width: 100%;
-    margin-bottom: 10px;
     flex-direction: row;
     align-content: space-between;
+    background-color: #ffffff;
 }
 .main__home__section__article__div2 {
     display: flex;
+    background-color: #ffffff;
+    padding-top: 5px;
 }
 .main__home__section__article__div1 img, .main__home__section__article__div2 img {
     width: 50%;
@@ -36,5 +43,24 @@
     width: 50%;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
+}
+.main__home__section__article__div1--descripcion button {
+    padding: 8px 12px;
+    border-radius: 8px;
+    
+}
+.button--trocarya button {
+     background-color: #4955df;
+     color: #ffffff;
+     font-size: 17px;
+     border: none;
+     padding: 5px 50px;
+     margin: 10px 0 15px;
+     border-radius: 8px;
+     
+}
+.button--trocarya {
+    border-bottom: 1px solid silver;
 }
