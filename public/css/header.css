@@ -1,12 +1,7 @@
-* {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    font-family: 'Ysabeau', 'inconsolata' ;
-}
-body {
-    background-color: #ebebf2;
-}
+
+/*  H E A D E R  */
+
+
 .header li {
     list-style: none;
     width: 50%;
@@ -22,7 +17,7 @@ body {
 }
 .header__nav__div2--ul a:hover {
     text-decoration: underline;
-    text-decoration-color: #4343dc;
+    text-decoration-color: #4b53b2;
     padding: 5px; 
 }
 .header {
