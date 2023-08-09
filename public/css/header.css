@@ -1,7 +1,13 @@
 
 /*  H E A D E R  */
 
-
+.header {
+    width: 100%;
+    background-color: #ddb138;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
 .header li {
     list-style: none;
     width: 50%;
@@ -18,11 +24,7 @@
 .header__nav__div2--ul a:hover {
     text-decoration: underline;
     text-decoration-color: #4955df;
-    padding: 5px; 
-}
-.header {
-    width: 100%;
-    background-color: #ddb138;
+    padding: 5px;
 }
 .header__nav {
     display: flex;
@@ -67,7 +69,7 @@
     padding: 0px 0 15px;
     align-items: center;
 }
-.header .header__nav--input input {
+.header__nav--input input {
     width: 90%;
     padding: 13px;
     border-radius: 5px;
@@ -75,7 +77,6 @@
     outline: none;
     font-size: 15px;
     margin-left: 9px;
-
 }
 .header__nav--input button {
     background: none;
@@ -96,6 +97,7 @@
 .header__div3 {
     display:flex;
     padding: 8px 0;
+    width: 100%;
 }
 .header__div3--ul {
     width: 100%;
@@ -116,4 +118,81 @@
 .header__div3--ul a:hover {
     text-decoration: underline;
     text-decoration-color: #4955df;
+}
+
+@media(min-width:481px) {
+    
+    .header {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+    .header a {
+        font-size: 10px;
+     }
+    .header__nav__div2--ul a:hover {
+        padding: 0;
+    }
+    .header__nav {
+        justify-content: flex-start;
+        width: 41%;
+        border: none;
+    }
+    .header__nav__div1 {
+        width: 20%;
+        align-items: center;
+    }
+    .header__nav__div1 img {
+        width: 100%;
+    }
+    .header__nav__div2{
+        width: 80%;
+    }
+    .header__nav__div2--ul {
+        width: 100%;
+    }
+    .header__nav__div2--ul i {
+        font-size: 13px;
+        display: flex;
+        justify-content: center;
+        color: #4955df;
+        border-right: 1px solid #ebebf2;
+    }
+    .header__div3--ul a {
+        font-size: 10px;
+        color: #4955df;
+    }
+    .header__div3 {
+        display:flex;
+        padding: 8px 0;
+        width: 59%;
+    }
+    .header__div3--ul {
+        width: 100%;
+        display: flex;
+    }
+    .header__div3--ul i {
+        font-size: 13px;
+        display: flex;
+        justify-content: center;
+        color: #4955df;
+        border-right: 1px solid #ebebf2;
+    }
+    .header .header__nav--input {
+        width: 100%;
+        padding: 0px 0 7px;
+    }
+    .header__nav--input input {
+        width: 75%;
+        border-radius: 10px;
+        font-size: 14px;
+        margin: 7px 0px 0 51px;
+    }
+    .header__nav--input button i {
+        font-size: 25px;
+        padding-left: 6px;
+        margin-left: -150px;
+        margin-top: 6px;
+    }
+
 }

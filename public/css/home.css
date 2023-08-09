@@ -47,7 +47,7 @@ h2 {
     align-items: center;
 }
 .main__home__section__article__div1--descripcion button {
-    padding: 8px 1px;
+    padding: 8px 15px;
     border-radius: 8px;
     background-color: #ddb138;
     color: #4955df;
@@ -98,16 +98,16 @@ h2 {
         width: 0%;
     }
     .main__home__section__article__div1--descripcion button {
-        padding: 5px 13px;
+        padding: 5px 12px;
         font-size: 12px;
    }
     .button--trocarya1 button {
         background-color: #4955df;
         color: #ffffff;
-        font-size: 12px;
+        font-size: 11px;
         border: none;
-        padding: 8px 30px;
-        margin: 5px -55px;
+        padding: 7px 31px;
+        margin: 0px -54px;
         border-radius: 8px;
    }   
 }
