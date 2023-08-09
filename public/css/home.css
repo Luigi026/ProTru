@@ -99,15 +99,19 @@ h2 {
     }
     .main__home__section__article__div1--descripcion button {
         padding: 5px 12px;
-        font-size: 12px;
+        font-size: 11px;
    }
     .button--trocarya1 button {
         background-color: #4955df;
-        color: #ffffff;
         font-size: 11px;
         border: none;
-        padding: 7px 31px;
-        margin: 0px -54px;
+        margin: 0px -63px;
         border-radius: 8px;
+        text-align: center;
+        padding: 8px 40px;
    }   
+   .button--trocarya1 button a {
+        color: #ffffff;
+        padding: 2px 0px;
+   }
 }
