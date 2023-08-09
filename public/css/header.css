@@ -128,7 +128,7 @@
         align-items: center;
     }
     .header a {
-        font-size: 10px;
+        font-size: 13px;
      }
     .header__nav__div2--ul a:hover {
         padding: 0;
@@ -152,14 +152,14 @@
         width: 100%;
     }
     .header__nav__div2--ul i {
-        font-size: 13px;
+        font-size: 20px;
         display: flex;
         justify-content: center;
         color: #4955df;
         border-right: 1px solid #ebebf2;
     }
     .header__div3--ul a {
-        font-size: 10px;
+        font-size: 13px;
         color: #4955df;
     }
     .header__div3 {
@@ -172,7 +172,7 @@
         display: flex;
     }
     .header__div3--ul i {
-        font-size: 13px;
+        font-size: 20px;
         display: flex;
         justify-content: center;
         color: #4955df;
