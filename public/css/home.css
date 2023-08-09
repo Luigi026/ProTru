@@ -43,11 +43,11 @@ h2 {
     width: 50%;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
 }
 .main__home__section__article__div1--descripcion button {
-    padding: 8px 12px;
+    padding: 8px 1px;
     border-radius: 8px;
     background-color: #ddb138;
     color: #4955df;
