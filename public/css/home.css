@@ -31,12 +31,14 @@ h2 {
     align-content: space-between;
     background-color: #ffffff;
     flex-wrap: wrap;
+    border: 1px solid #dddddd;
 }
 .main__home__section__article__div2 {
     display: flex;
     background-color: #ffffff;
     padding-top: 5px;
     flex-wrap: wrap;
+    border: 1px solid #dddddd;
 }
 .main__home__section__article__div1 img, .main__home__section__article__div2 img {
     width: 50%;
@@ -65,13 +67,6 @@ h2 {
      margin: 10px 0 15px;
      border-radius: 11px;
 }
-/* .button--trocarya {
-    border-bottom: 1px solid #dddddd;
-}
-.button--trocarya1 {
-    display: flex;
-    color: #4955df;
-} */
 .button--trocarya1 button {
     background-color: #4955df;
     font-size: 13px;
@@ -93,11 +88,9 @@ h2 {
     }
     .main__home__section__article__div1 {
         width: 50%;
-        border: 1px solid #dddddd;
     }
     .main__home__section__article__div2 {
        width: 50%;
-       border: 1px solid #dddddd;
     }
     .button--trocarya1 {
         display: flex;
