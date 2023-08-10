@@ -50,7 +50,7 @@ h2 {
     /* height: 150px; */
 }
 .main__home__section__article__div1--descripcion button {
-    padding: 8px 15px;
+    padding: 4px 6px;
     border-radius: 8px;
     background-color: #ddb138;
     color: #4955df;
@@ -65,11 +65,23 @@ h2 {
      margin: 10px 0 15px;
      border-radius: 11px;
 }
-.button--trocarya {
+/* .button--trocarya {
     border-bottom: 1px solid #dddddd;
 }
 .button--trocarya1 {
     display: flex;
+    color: #4955df;
+} */
+.button--trocarya1 button {
+    background-color: #4955df;
+    font-size: 13px;
+    border: none;
+    border-radius: 8px;
+    padding: 8px 40px;
+}   
+.button--trocarya1 button a {
+    color: #ffffff;
+    padding: 2px 0px;
 }
 
 @media(min-width: 481px) {
@@ -97,14 +109,6 @@ h2 {
         font-size: 13px;
     }
     .button--trocarya1 button {
-        background-color: #4955df;
-        font-size: 13px;
-        border: none;
-        border-radius: 8px;
         padding: 8px 40px;
     }   
-   .button--trocarya1 button a {
-        color: #ffffff;
-        padding: 2px 0px;
-    }
 }
