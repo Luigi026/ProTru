@@ -1,11 +1,73 @@
 
-.header__nav__div1-register img {
-    width: 50%;
-    border-radius: 50%;
-    display: block;
+.header__nav__div1-register {
     text-align: center;
+    background-color: #ddb138;
+    padding-bottom: 10px;
 }
+.header__nav__div1-register img {
+    width: 35%;
+    border-radius: 50%;
+    margin: 10px 0 1px;
+}
+.header__profile__nav ul {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    background-color: #ddb138;
+    padding-bottom: 15px;
+}
+.header__profile__nav ul li {
+    width: 30%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 23px;
+}
+.header__profile__nav ul li i {
+    color: #4955df;
+}
+.header__register__nav ul {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    background-color: #ddb138;
+    padding-bottom: 15px;
 
+}
+.header__register__nav ul li {
+    width: 30%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 23px;
+}
+.header__register__nav ul li i {
+    color: #4955df;
+}
+.header__login__nav ul {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    background-color: #ddb138;
+    padding-bottom: 15px;
+
+}
+.header__login__nav ul li {
+    width: 30%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 23px;
+}
+.header__login__nav ul li i {
+    color: #4955df;
+}
 .form__control {
     border: 1px solid silver;
     border-radius: 5px;
