@@ -1,43 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=, initial-scale=1.0">
-    <title>TRUEQUE</title>
-    <script src="https://kit.fontawesome.com/e4646141a1.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="/css/styles.css">
-</head>
+<%- include('partials/head') %>
 <body>
-    <header class="header">
-        <nav class="header__nav">
-            <div class="header__nav__div1">
-                <img src="/img/trueque.logo.jpg" alt="img logo">
-            </div>
-            <div class="header__nav__div2">
-                <ul class="header__nav__div2--ul">
-                    <li><i class="fa-solid fa-address-card"></i><a href="/register">registro</a></li>
-                    <li><i class="fa-solid fa-user"></i><a href="/login">cuenta</a></li>
-                    <li><i class="fa-sharp fa-solid fa-ticket"></i><a href="/profile">perfil</a></li>
-                    <li><i class="fa-solid fa-handshake-simple"></i><a href="">trueques</a></li>
-                </ul>
-            </div> 
-        </nav>
-        <div class="header__div3">
-            <ul class="header__div3--ul">
-                <li><i class="fa-solid fa-shirt"></i><a href="">ropa</a></li>
-                <li><i class="fa-solid fa-pizza-slice"></i><a href="">comida</a></li>
-                <li><i class="fa-solid fa-hammer"></i><a href="">oficios</a></li>
-                <li><i class="fa-solid fa-tv"></i><a href="">enseres</a></li>
-                <li><i class="fa-solid fa-car"></i><a href="">vehiculos</a></li>
-                <li><i class="fa-solid fa-book"></i><a href="">libros</a></li>
-                <li><i class="fa-sharp fa-solid fa-comment-dots"></i><a href="">mas</a></li>
-            </ul>
-        </div>
-        <div class="header__nav--input">
-            <input placeholder="Buscar productos y/o servicios" type="text">
-            <button><i class="fa-solid fa-magnifying-glass"></i></button>
-        </div>
-    </header>
+   <%- include('partials/header') %>
     <main class="main__home">
         <br>
         <a href=""><h2>categoría vehiculos    <i class="fa-solid fa-car"></i></h2></a>
